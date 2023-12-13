@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.test.ApplicationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-13T05:43:12" hostname="Augustines-MacBook-Air.local" time="6.796">
+  <properties/>
+  <testcase name="testRoot" classname="com.test.ApplicationTest" time="6.796"/>
+  <system-out><![CDATA[2023-12-13 06:43:14.624 [Test worker @coroutine#1] TRACE i.ktor.client.plugins.HttpPlainText - Adding Accept-Charset=UTF-8 to http:///
+2023-12-13 06:43:15.028 [DefaultDispatcher-worker-1 @call-context#2] INFO  ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active.
+2023-12-13 06:43:15.401 [DefaultDispatcher-worker-1 @call-context#2] INFO  ktor.test - Application started in 0.471 seconds.
+2023-12-13 06:43:15.424 [DefaultDispatcher-worker-3 @coroutine#4] INFO  ktor.test - Responding at http://localhost:80
+2023-12-13 06:43:15.425 [DefaultDispatcher-worker-3 @coroutine#4] INFO  ktor.test - Responding at https://localhost:443
+2023-12-13 06:43:15.887 [DefaultDispatcher-worker-1 @request#2] TRACE io.ktor.routing.Routing - Trace for []
+/, segment:0 -> SUCCESS @ /
+  /, segment:0 -> SUCCESS @ /
+    /(method:GET), segment:0 -> SUCCESS @ /(method:GET)
+Matched routes:
+  "" -> "<slash>" -> "(method:GET)"
+Route resolve result:
+  SUCCESS @ /(method:GET)
+2023-12-13 06:43:16.091 [Test worker @coroutine#1] TRACE i.k.client.plugins.HttpCallValidator - Validating response for request http://localhost/
+2023-12-13 06:43:16.092 [Test worker @coroutine#1] TRACE i.k.c.p.DefaultResponseValidation - Skipping default response validation for http://localhost/
+2023-12-13 06:43:18.840 [Test worker @coroutine#1] TRACE i.k.c.plugins.defaultTransformers - Transformed with default transformers response body for http://localhost/ to class io.ktor.utils.io.core.ByteReadPacket
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

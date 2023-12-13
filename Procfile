@@ -1,1 +1,1 @@
-web: build/install/hengouts/bin/hengoutsTester
+web: build/install/hengoutsTester/bin/hengoutsTester
